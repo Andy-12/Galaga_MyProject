@@ -1,0 +1,2 @@
+D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\UE4Editor\Development\Galaga_MyProject\Definitions.Galaga_MyProject.h
+D:\facu\unreal\Galaga_MyProject\Source\Galaga_MyProject\Galaga_MyProject.h

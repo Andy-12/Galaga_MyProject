@@ -1,0 +1,7 @@
+D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\UE4Editor\Development\Galaga_MyProject\Definitions.Galaga_MyProject.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\facu\unreal\Galaga_MyProject\Source\Galaga_MyProject/MyNaveEnemigaEmpaladora.h
+D:\facu\unreal\Galaga_MyProject\Source\Galaga_MyProject\NaveEnemiga.h
+D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_MyProject\NaveEnemiga.generated.h
+D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_MyProject\MyNaveEnemigaEmpaladora.generated.h

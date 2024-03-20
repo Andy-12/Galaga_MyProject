@@ -1,0 +1,5 @@
+D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\UE4Editor\Development\Galaga_MyProject\Definitions.Galaga_MyProject.h
+D:\facu\unreal\Galaga_MyProject\Source\Galaga_MyProject\MyNaveEnemigaEspia.h
+D:\facu\unreal\Galaga_MyProject\Source\Galaga_MyProject\NaveEnemiga.h
+D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_MyProject\NaveEnemiga.generated.h
+D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_MyProject\MyNaveEnemigaEspia.generated.h

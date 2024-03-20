@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Galaga_MyProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{75355244-2AEB-4190-B029-9F185C1CC433}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Galaga_MyProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Galaga_MyProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C4B3E76B-2873-4688-9AAF-5C93D5ECF424}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Galaga_MyProject">
+      <UniqueIdentifier>{F036CA9C-1165-4C70-AA26-643058532D00}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Galaga_MyProject\Galaga_MyProject.Build.cs">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\Galaga_MyProject.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\Galaga_MyProject.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\Galaga_MyProjectGameMode.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\Galaga_MyProjectGameMode.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\Galaga_MyProjectPawn.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\Galaga_MyProjectPawn.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\Galaga_MyProjectProjectile.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\Galaga_MyProjectProjectile.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaCaza.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaCaza.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaEmpaladora.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaEmpaladora.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaEspia.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaEspia.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaNodriza.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaNodriza.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaReabastecimiento.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaReabastecimiento.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaTransporte.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\MyNaveEnemigaTransporte.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_MyProject\NaveEnemiga.cpp">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_MyProject\NaveEnemiga.h">
+      <Filter>Source\Galaga_MyProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

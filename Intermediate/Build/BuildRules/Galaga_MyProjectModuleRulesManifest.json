@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\facu\\unreal\\Galaga_MyProject\\Source\\Galaga_MyProject\\Galaga_MyProject.Build.cs",
+		"D:\\facu\\unreal\\Galaga_MyProject\\Source\\Galaga_MyProject.Target.cs",
+		"D:\\facu\\unreal\\Galaga_MyProject\\Source\\Galaga_MyProjectEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
