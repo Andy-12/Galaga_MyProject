@@ -12,6 +12,7 @@
 #include "Engine/StaticMesh.h"
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundBase.h"
+#include "Galaga_MyProjectGameMode.h"
 
 const FName AGalaga_MyProjectPawn::MoveForwardBinding("MoveForward");
 const FName AGalaga_MyProjectPawn::MoveRightBinding("MoveRight");
@@ -48,8 +49,10 @@ AGalaga_MyProjectPawn::AGalaga_MyProjectPawn()
 	MoveSpeed = 1000.0f;
 	// Weapon
 	GunOffset = FVector(90.f, 0.f, 0.f);
+	GunOffset2 = FVector(90.f, 90.f, 0.f);
 	FireRate = 0.1f;
 	bCanFire = true;
+	Score = 0;
 }
 
 void AGalaga_MyProjectPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -110,14 +113,31 @@ void AGalaga_MyProjectPawn::FireShot(FVector FireDirection)
 			const FRotator FireRotation = FireDirection.Rotation();
 			// Spawn projectile at an offset from this pawn
 			const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(GunOffset);
-
+			const FVector SpawnLocation2 = GetActorLocation() + FireRotation.RotateVector(GunOffset2);
 			UWorld* const World = GetWorld();
 			if (World != nullptr)
 			{
 				// spawn the projectile
 				World->SpawnActor<AGalaga_MyProjectProjectile>(SpawnLocation, FireRotation);
 			}
+			//ACTIVAR DISPARO DOBLE
+			bool disparodoble = false;
+			{
+				AGalaga_MyProjectGameMode* GameMode = Cast<AGalaga_MyProjectGameMode>(GetWorld()->GetAuthGameMode());
+				if (GameMode != nullptr)
+				{
+					disparodoble = GameMode->GetPowerUpStatus(200);
+				}
+			}
 
+			if (disparodoble)
+			{
+
+				if (World != nullptr)
+				{
+					World->SpawnActor<AGalaga_MyProjectProjectile>(SpawnLocation2, FireRotation);
+				}
+			}
 			bCanFire = false;
 			World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &AGalaga_MyProjectPawn::ShotTimerExpired, FireRate);
 

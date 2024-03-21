@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Galaga_MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{75355244-2AEB-4190-B029-9F185C1CC433}</UniqueIdentifier>
+      <UniqueIdentifier>{00BCDDD0-B363-493D-ABA1-1A9BA2FAE686}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Galaga_MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\Galaga_MyProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C4B3E76B-2873-4688-9AAF-5C93D5ECF424}</UniqueIdentifier>
+      <UniqueIdentifier>{F275C8B2-0E75-4FDA-952A-73E5752F950D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Galaga_MyProject">
-      <UniqueIdentifier>{F036CA9C-1165-4C70-AA26-643058532D00}</UniqueIdentifier>
+      <UniqueIdentifier>{80C70F68-9097-4CD5-942B-CD1E847CF45A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Galaga_MyProject\Galaga_MyProject.Build.cs">
       <Filter>Source\Galaga_MyProject</Filter>

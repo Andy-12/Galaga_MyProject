@@ -10,7 +10,7 @@ void AMyNaveEnemigaReabastecimiento::BeginPlay()
 
 AMyNaveEnemigaReabastecimiento::AMyNaveEnemigaReabastecimiento()
 {
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> malla(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_QuadPyramid.Shape_QuadPyramid'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> malla(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Torus.Shape_Torus'"));
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
 }
 
@@ -25,11 +25,11 @@ void AMyNaveEnemigaReabastecimiento::Mover(float DeltaTime)
 	FVector PosicionActual = GetActorLocation();
 
 	// Genera nuevas coordenadas X e Y aleatorias
-	float NuevaX = FMath::RandRange(-1000.0f, 1000.0f) * DeltaTime;
-	float NuevaY = FMath::RandRange(-1000.0f, 1000.0f) * DeltaTime;
+	velocidad = -2;
+	float NuevaY = 10.0f * (DeltaTime * velocidad);
 
 	// Crea un nuevo vector de posición con las coordenadas aleatorias y la misma Z que la posición actual
-	FVector NuevaPosicion = FVector(PosicionActual.X + NuevaX, PosicionActual.Y + NuevaY, PosicionActual.Z);
+	FVector NuevaPosicion = FVector(PosicionActual.X, PosicionActual.Y +NuevaY, PosicionActual.Z);
 
 	// Establece la nueva posición del actor
 	SetActorLocation(NuevaPosicion);

@@ -260,11 +260,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/I D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine
-/Yc"D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"D:\facu\unreal\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I D:\Estudiar\facu\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine
+/Yc"D:\Estudiar\facu\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Estudiar\facu\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Estudiar\facu\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"D:\Estudiar\facu\Galaga_MyProject\Intermediate\Build\Win64\Galaga_MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

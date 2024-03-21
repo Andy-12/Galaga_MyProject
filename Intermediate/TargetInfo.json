@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Galaga_MyProject",
-			"Path": "D:\\facu\\unreal\\Galaga_MyProject\\Source\\Galaga_MyProject.Target.cs",
+			"Path": "D:\\Estudiar\\facu\\Galaga_MyProject\\Source\\Galaga_MyProject.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Galaga_MyProjectEditor",
-			"Path": "D:\\facu\\unreal\\Galaga_MyProject\\Source\\Galaga_MyProjectEditor.Target.cs",
+			"Path": "D:\\Estudiar\\facu\\Galaga_MyProject\\Source\\Galaga_MyProjectEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
